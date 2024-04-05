@@ -1,0 +1,61 @@
+h2,h3,h1
+{
+    
+    margin :0;
+    padding: 0;
+    box-sizing:border-box;
+    font: size 40px; ;
+    text-align:center;
+    font-familt:"Poppins",sans-serif;
+    background-color:transparent;   
+}
+body{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:url(cet2.jpeg)no-repeat;
+    background-size: cover;
+
+}
+
+
+header {
+    background-color: transparent;
+    color: black;
+    text-align: center; /* Align text to the center */
+    padding: .5rem;
+    margin-bottom: 0;
+    margin-top: 10px; /* Remove default margin */
+}
+.wrapper
+{
+    max-width:500px;
+    margin:0 auto;
+}
+.card{
+    padding:0.5rem 1rem;
+    border: 1px solid white;
+    border-radius:3px;
+    margin:.3rem;
+
+}
+.text-center
+{
+    text-align:center;
+}
+textarea{
+    width:100%;
+}
+.text-1
+{
+    text-align:left;
+}
+p{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+small{
+    color:black;
+}

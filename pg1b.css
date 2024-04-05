@@ -1,0 +1,37 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+
+{
+    margin :0;
+    padding: 0;
+    box-sizing:border-box;
+    font-familt:"Poppins",sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 10px;
+    background: url(cet2.jpeg) no-repeat;
+    background-size: cover;
+     /* Adjust the blur amount as needed */
+}
+
+.registration-form {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.5); /* Add background color with transparency for better readability */
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Adjust border color and transparency as needed */
+    padding: 82px 70px;
+}
+
+.registration-form h1 {
+    font-size: 40px;
+    text-align: center;
+}
